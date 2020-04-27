@@ -5,4 +5,4 @@ Anggota tim
 Rachmat Gunawan -> Body
 Defri Indra -> Header
 Okta Tiara -> Footer
-Nurul Hasanah -> Animasi
+Nurul Hasanah -> Body

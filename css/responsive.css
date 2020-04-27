@@ -75,4 +75,15 @@
         background-color: blueviolet;
         margin-top: 50px;
     }
+    .footer img{
+        width:80px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
 }
