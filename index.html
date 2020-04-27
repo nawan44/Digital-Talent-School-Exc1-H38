@@ -38,7 +38,11 @@
             <div class="header__image_hero"></div>
         </header>
         <div class="content">
+			<p><button onclick="myMove()">Klik Saya</button></p> 
 
+			<div id="container">
+			  <div id="animate"></div>
+			</div>
             <div class="DTS">
                 <hr >
                 <div class="leftContent">
@@ -163,9 +167,27 @@
         </div>
         <footer class="footer">
             <img src="Image/DTSH38.png" class="center">
-            </footer>
+         </footer>
+
+		<script>
+		function myMove() {
+		  var elem = document.getElementById("animate");   
+		  var pos = 0;
+		  var id = setInterval(frame, 5);
+		  function frame() {
+			if (pos == 350) {
+			  clearInterval(id);
+			} else {
+			  pos++; 
+			  elem.style.top = pos + "px"; 
+			  elem.style.left = pos + "px"; 
+			}
+		  }
+		}
+		</script>
     </body>
 
     <!-- Scripts JavaScript -->
     <script src="js/script.js"></script>
+	
 </html>
