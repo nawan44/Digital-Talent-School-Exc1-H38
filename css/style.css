@@ -13,6 +13,7 @@ header {
 
 a {
     text-decoration: none;
+    position: absolute;
 }
 
 .DTS {
@@ -21,6 +22,7 @@ a {
 .content {
     width: 80%;
     margin: 0 auto 50px;
+    position: relative;
 }
 
 hr {
@@ -120,3 +122,10 @@ hr {
 }
 
 
+.footer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    margin-top: 50px;
+}
