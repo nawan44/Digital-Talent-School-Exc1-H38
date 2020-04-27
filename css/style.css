@@ -1,6 +1,6 @@
 body {
     background-color: bisque;
-
+    position: absolute;
 }
 
 .DTS {
@@ -9,6 +9,7 @@ body {
 .content {
     width: 80%;
     margin: 0 auto 50px;
+    position: relative;
 }
 
 hr {
@@ -57,4 +58,12 @@ hr {
     margin-top: 30px;
     width: 40px;
     height: 40px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    margin-top: 50px;
 }
