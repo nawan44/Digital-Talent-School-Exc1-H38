@@ -1,6 +1,18 @@
-body {
-    background-color: bisque;
 
+html,body {
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Open Sans',cursive;
+}
+
+header {
+    background: #000;
+}
+
+a {
+    text-decoration: none;
 }
 
 .DTS {
@@ -58,3 +70,53 @@ hr {
     width: 40px;
     height: 40px;
 }
+
+
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar-brand,
+.nav-link:hover {
+    color: #fff;
+}
+.nav-link {
+    color: #eee;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+.navbar-brand {
+    float: left;
+    font-size: 1.2rem;
+    font-wieght: bold;
+}
+.nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.nav-item {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.header__image_hero {
+    background: url('../Image/hero.jpg') no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.nav-toggle {
+    color: #fff;
+    display: none;
+    padding: 10px;
+}
+
+
