@@ -27,10 +27,10 @@
                             <a href="#" class="nav-link">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">DTS</a>
+                            <a href="#DTS" class="nav-link">DTS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Team</a>
+                            <a href="#team" class="nav-link">team</a>
                         </li>
                     </ul>
                 </div>
@@ -38,12 +38,19 @@
             <div class="header__image_hero"></div>
         </header>
         <div class="content">
-			<p><button onclick="myMove()">Klik Saya</button></p> 
 
-			<div id="container">
-			  <div id="animate"></div>
-			</div>
-            <div class="DTS">
+            <!-- ANIMASI -->
+
+            <p>
+                <button onclick="myMove()">Klik Saya</button>
+            </p>
+
+            <div id="container">
+                <div id="animate"></div>
+            </div>
+
+            <!-- Konten -->
+            <div id="DTS">
                 <hr >
                 <div class="leftContent">
                     <h1>DIGITAL TALENT SCHOOL</h1>
@@ -59,12 +66,10 @@
                 <hr>
             </div>
 
-            <div class="Team">
-              
+            <div id="team">
+
                 <div class="leftContent">
-                    <div class="icon">
-                      
-                    </div>
+                    <div class="icon"></div>
                     <div class="photo">
                         <img src="Image/sea.JPG">
                     </div>
@@ -72,7 +77,7 @@
                 <div class="rightContent">
                     <p>
                         <h3>Rachmat Gunawan</h3>
-                    </p>5
+                    </p>
 
                     <p>Bekasi, Indonesia</p>
                     <p>rachmat.d.gunawan@gmail.com</p>
@@ -84,8 +89,8 @@
                 </div>
                 <hr >
             </div>
-            <div class="Team">
-               
+            <div id="team">
+
                 <div class="leftContent">
 
                     <p>
@@ -106,18 +111,14 @@
                         </a>
                     </div>
 
-                    <div class="icon1">
-                        
-                    </div>
+                    <div class="icon1"></div>
                 </div>
                 <hr >
             </div>
-            <div class="Team">
-              
+            <div id="team">
+
                 <div class="leftContent">
-                    <div class="icon">
-                       
-                    </div>
+                    <div class="icon"></div>
                     <div class="photo">
                         <img src="Image/OKTA.jpeg">
                     </div>
@@ -135,8 +136,8 @@
                 </div>
                 <hr >
             </div>
-            <div class="Team">
-                <hr >
+            <div id="team">
+
                 <div class="leftContent">
 
                     <p>
@@ -157,37 +158,56 @@
                         </a>
                     </div>
 
-                    <div class="icon1">
+                    <div class="icon1"></div>
+                </div>
+                <hr >
+            </div>
 
-                       
+            <div id="team">
+
+                <div class="leftContent">
+                    <div class="icon"></div>
+                    <div class="photo">
+                        <!-- <img src="MASUKKAN PATH FOTO">  -->
                     </div>
+                </div>
+                <div class="rightContent">
+                    <p>
+                        <h3>Putu Widiarsa Kurniawan</h3>
+                    </p>
+
+                    <p>Alamat</p>
+                    <p>EMAIL</p>
+
+                    <p>"QUOTE"</p>
+
                 </div>
                 <hr >
             </div>
         </div>
         <footer class="footer">
             <img src="Image/DTSH38.png" class="center">
-         </footer>
+        </footer>
 
-		<script>
-		function myMove() {
-		  var elem = document.getElementById("animate");   
-		  var pos = 0;
-		  var id = setInterval(frame, 5);
-		  function frame() {
-			if (pos == 350) {
-			  clearInterval(id);
-			} else {
-			  pos++; 
-			  elem.style.top = pos + "px"; 
-			  elem.style.left = pos + "px"; 
-			}
-		  }
-		}
-		</script>
+        <script>
+            function myMove() {
+                var elem = document.getElementById("animate");
+                var pos = 0;
+                var id = setInterval(frame, 5);
+                function frame() {
+                    if (pos == 350) {
+                        clearInterval(id);
+                    } else {
+                        pos++;
+                        elem.style.top = pos + "px";
+                        elem.style.left = pos + "px";
+                    }
+                }
+            }
+        </script>
     </body>
 
     <!-- Scripts JavaScript -->
     <script src="js/script.js"></script>
-	
+
 </html>
