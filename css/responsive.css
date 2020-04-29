@@ -18,7 +18,9 @@
         display: block;
     }
 
-    /* CONTENT */
+
+  /* CONTENT */
+
     #DTS {
         height: 80px;
     }
@@ -44,7 +46,9 @@
     }
     .leftContent {
 
+
         height: 200px;
+
         width: 100%;
         float: left;
     }
@@ -77,7 +81,10 @@
         height: 170px;
         margin-left: 40px;
     }
+
     /* FOOTER */
+
+
     .footer {
 
         position: relative;
@@ -97,6 +104,8 @@
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+
     }
+
 
 }
