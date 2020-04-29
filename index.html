@@ -39,18 +39,21 @@
         </header>
         <div class="content">
 
-            <!-- ANIMASI -->
+            <div class="wadah">
+                <span>ANIMASI</span>
+                <p>
+                    <button onclick="myMove()">Klik Saya</button>
+                </p>
 
-            <p>
-                <button onclick="myMove()">Klik Saya</button>
-            </p>
-
-            <div id="container">
-                <div id="animate"></div>
+                <div id="container"> <h3>Digital Talent School - 2020</h3>
+                    <div id="animate">
+                       <p>Team H-38</p> 
+                        </div>
+                </div>
             </div>
+            <div class="DTS">
 
-            <!-- Konten -->
-            <div id="DTS">
+
                 <hr >
                 <div class="leftContent">
                     <h1>DIGITAL TALENT SCHOOL</h1>
@@ -65,8 +68,12 @@
                 </div>
                 <hr>
             </div>
-
+            <div class="t38">
+                <h1>Team H-38</h1>
+            <hr>
+            </div>
             <div id="team">
+
 
                 <div class="leftContent">
                     <div class="icon"></div>
@@ -128,10 +135,10 @@
                         <h3>Okta tiara</h3>
                     </p>
 
-                    <p>Alamat</p>
+                    <!-- <p>Alamat</p>
                     <p>EMAIL</p>
 
-                    <p>"QUOTE"</p>
+                    <p>"QUOTE"</p> -->
 
                 </div>
                 <hr >
@@ -169,6 +176,9 @@
                     <div class="icon"></div>
                     <div class="photo">
                         <!-- <img src="MASUKKAN PATH FOTO">  -->
+
+                        <img src="https://i.ibb.co/bFFrbd6/foto.jpg">
+
                     </div>
                 </div>
                 <div class="rightContent">
@@ -176,10 +186,19 @@
                         <h3>Putu Widiarsa Kurniawan</h3>
                     </p>
 
+
+                    <p>Bangli, Bali</p>
+                    <p>nasi.be.guling@gmail.com</p>
+
+                    <p>"Someone finds salvation in everyone, another only pain Someone tries to hide
+                        himself, down inside himself he prays Someone swears his true love until the end
+                        of time, another runs away Separate or united, healthy or insane" - Audioslave</p>
+
                     <p>Alamat</p>
                     <p>EMAIL</p>
 
                     <p>"QUOTE"</p>
+
 
                 </div>
                 <hr >
@@ -187,6 +206,7 @@
         </div>
         <footer class="footer">
             <img src="Image/DTSH38.png" class="center">
+
         </footer>
 
         <script>
@@ -195,7 +215,9 @@
                 var pos = 0;
                 var id = setInterval(frame, 5);
                 function frame() {
+
                     if (pos == 350) {
+
                         clearInterval(id);
                     } else {
                         pos++;
@@ -205,6 +227,7 @@
                 }
             }
         </script>
+
     </body>
 
     <!-- Scripts JavaScript -->

@@ -66,6 +66,13 @@ a {
 
 /* BODY - CONTENT */
 
+
+.t38 {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: darkcyan;
+}
+
 #DTS {
     height: 80px;
 }
@@ -133,23 +140,58 @@ hr {
 
 
 .footer {
+    margin-top: 30px;
     position: relative;
     width: 100%;
-    height: 50px;
-    background-color: blueviolet;
+    height: 80px;
+    background-color: black;
     margin-top: 50px;
 }
 .footer img {
-    width: 80px;
-    height: 30px;
+
+    padding-top: 20px;
+    width: 120px;
+    height: 50px;
+
     margin: 0 auto;
 
 }
 .center {
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
+
+}
+/* Animasi */
+.wadah {
+	width: 400px;
+    height: 410px;
+	margin-right: auto;
+	margin-left:  auto;
+	background: grey;
+	text-align: center;
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background: white;
+}
+#container h3{
+    padding-top: 120px;
+    color: teal;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    
+}
+#animate {
+    margin: 0 auto;
+    color: white;
+
 }
 /* Animasi */
 
@@ -160,8 +202,10 @@ hr {
     background: yellow;
 }
 #animate {
+
     width: 50px;
     height: 50px;
     position: absolute;
     background-color: red;
 }
+
