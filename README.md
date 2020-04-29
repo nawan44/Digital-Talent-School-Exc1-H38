@@ -13,5 +13,4 @@ Anggota tim
 <li>Nurul Hasanah -> Fitur Body</li>
 <li>Putu Widiarsa -> Fitur Animasi</li>
 
-</ul>
-</h3>
+

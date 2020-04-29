@@ -66,11 +66,13 @@ a {
 
 /* BODY - CONTENT */
 
+
 .t38 {
     margin: 0 auto;
     margin-bottom: 30px;
     color: darkcyan;
 }
+
 #DTS {
     height: 80px;
 }
@@ -146,9 +148,11 @@ hr {
     margin-top: 50px;
 }
 .footer img {
+
     padding-top: 20px;
     width: 120px;
     height: 50px;
+
     margin: 0 auto;
 
 }
@@ -158,6 +162,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
 
 }
 /* Animasi */
@@ -186,11 +191,21 @@ hr {
 #animate {
     margin: 0 auto;
     color: white;
+
+}
+/* Animasi */
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}
+#animate {
+
     width: 50px;
     height: 50px;
     position: absolute;
     background-color: red;
 }
-#animate {
-    margin: 0 auto;
-}
+
