@@ -6,3 +6,4 @@ Rachmat Gunawan -> Body
 Defri Indra -> Header
 Okta Tiara -> Footer
 Nurul Hasanah -> Body
+Putu Widiarsa -> Animasi

@@ -1,11 +1,14 @@
 
-html,body {
+body,
+html {
     background-color: bisque;
     padding: 0;
     margin: 0;
     font-size: 14px;
     font-family: 'Open Sans',cursive;
 }
+
+/* HEADER */
 
 header {
     background: #000;
@@ -16,73 +19,12 @@ a {
     position: absolute;
 }
 
-.DTS {
-    height: 80px;
-}
-.content {
-    width: 80%;
-    margin: 0 auto 50px;
-    position: relative;
-}
-
-hr {
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.rightContent {
-    width: 50%;
-    float: right;
-}
-.leftContent {
-
-    width: 50%;
-    float: left;
-}
-.icon img {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    float: left;
-    margin-left: 100px;
-    margin-top: 30px;
-}
-.photo img {
-    float: right;
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
-    margin-right: 200px;
-    margin-top: 20px;
-}
-.photo1 img {
-    border-radius: 50%;
-    float: left;
-
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
-    margin-left: 200px;
-}
-.icon1 img {
-    float: right;
-
-    margin-right: 100px;
-    margin-top: 30px;
-    width: 40px;
-    height: 40px;
-}
-
-
-
 .header-container {
     width: 80%;
     margin: 0 auto;
 }
-
-.navbar-brand,
-.nav-link:hover {
+.nav-link:hover,
+.navbar-brand {
     color: #fff;
 }
 .nav-link {
@@ -122,6 +64,73 @@ hr {
     padding: 10px;
 }
 
+/* BODY - CONTENT */
+
+#DTS {
+    height: 80px;
+}
+#team {
+    width: 100%;
+}
+.content {
+    width: 80%;
+    margin: 0 auto 50px;
+    position: relative;
+}
+
+hr {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.rightContent {
+    width: 50%;
+    float: right;
+    height: 200px;
+}
+
+.leftContent {
+
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.icon img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.photo img {
+    float: right;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.photo1 img {
+    border-radius: 50%;
+    float: left;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin-left: 200px;
+}
+.icon1 img {
+    float: right;
+
+    margin-right: 100px;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+/* FOOTER */
+
 
 .footer {
     position: relative;
@@ -130,8 +139,8 @@ hr {
     background-color: blueviolet;
     margin-top: 50px;
 }
-.footer img{
-    width:80px;
+.footer img {
+    width: 80px;
     height: 30px;
     margin: 0 auto;
 
@@ -141,4 +150,27 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+
+}
+/* Animasi */
+.wadah {
+	width: 400px;
+    height: 410px;
+	margin-right: auto;
+	margin-left:  auto;
+	background: grey;
+	text-align: center;
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background: white;
+}
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
