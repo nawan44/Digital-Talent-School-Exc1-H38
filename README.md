@@ -5,13 +5,13 @@
 
 <h3 style="font-family: fantasy;">
 Anggota tim
-
+<p></p>
 <ul type="1">
-<li>Rachmat Gunawan -> Body </li>
-<li>Defri Indra -> Header</li>
-<li>Okta Tiara -> Footer</li>
-<li>Nurul Hasanah -> Body</li>
-<li>Putu Widiarsa -> Animasi</li>
+<li>Rachmat Gunawan -> Fitur Body </li>
+<li>Defri Indra -> Fitur Header</li>
+<li>Okta Tiara -> Fitur Footer</li>
+<li>Nurul Hasanah -> Fitur Body</li>
+<li>Putu Widiarsa -> Fitur Animasi</li>
 
 </ul>
 </h3>
