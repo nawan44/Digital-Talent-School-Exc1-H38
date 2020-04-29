@@ -16,8 +16,8 @@ header {
 
 a {
     text-decoration: none;
-    position: absolute;
 }
+
 
 .header-container {
     width: 80%;
@@ -45,6 +45,7 @@ a {
     float: right;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 .nav-item {
     display: inline-block;
@@ -167,8 +168,8 @@ hr {
 }
 /* Animasi */
 .wadah {
-	width: 350px;
-    height: 350px;
+	max-width: 350px;
+    min-height: 50vh;
 	margin-right: auto;
 	margin-left:  auto;
 	background: grey;
@@ -177,7 +178,7 @@ hr {
 }
 
 #container {
-    width: 350px;
+    width: 100%;
     height: 350px;
     position: relative;
     background: white;
