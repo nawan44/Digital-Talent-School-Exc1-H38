@@ -18,4 +18,4 @@ Team Member
 
 </ul>
 </h3>
-<p> <a href = "https://nawan44.github.io/H38-DTS2020/" target="_blank"> Demo </a></p>
+<p> <a href = "https://nawan44.github.io/H38-DTS2020/" target="blank"> Demo </a></p>
