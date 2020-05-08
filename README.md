@@ -1,15 +1,23 @@
-# Digital-Talent-School-Exc1-H38
+<h1 style="font-family:verdana;">
+  <a href = "https://digitalent.kominfo.go.id/">
+    Digital Talent School 2020 </a></h1>
 <p>
-<h1 style="font-family:verdana;">Digital Talent School 2020<h2>
-<h2 style="font-family: Comic Sans MS;">Tim H 38<h2>
+<h2 style="font-family:verdana;">
+Online Academy Program (OA) Ministry of Communication and Information Technology (Indonesia) </h2>
+<h2 style="font-family: Comic Sans MS;">Team H 38</h2>
 
 <h3 style="font-family: fantasy;">
-Anggota tim
+Team Member
 <p></p>
 <ul type="1">
-<li>Rachmat Gunawan -> Fitur Body </li>
-<li>Defri Indra -> Fitur Header</li>
-<li>Okta Tiara -> Fitur Footer</li>
-<li>Nurul Hasanah -> Fitur Body</li>
-<li>Putu Widiarsa -> Fitur Animasi</li>
+<li>Rachmat Gunawan -> Body </li>
+<li>Defri Indra -> Header</li>
+<li>Okta Tiara ->  Footer</li>
+<li>Nurul Hasanah -> Body</li>
+<li>Putu Widiarsa -> Animation</li>
+
+
+</ul>
+</h3>
+<p> <a href = "https://nawan44.github.io/H38-DTS2020/" target="_blank"> Github Pages </a></p>
 
